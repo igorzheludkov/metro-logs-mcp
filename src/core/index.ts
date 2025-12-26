@@ -89,3 +89,6 @@ export {
 
 // Debug HTTP Server
 export { startDebugHttpServer, getDebugServerPort } from "./httpServer.js";
+
+// Telemetry
+export { initTelemetry, isTelemetryEnabled, trackToolInvocation } from "./telemetry.js";
